@@ -25,10 +25,10 @@ pipeline {
                 bat 'mvn install'
             }
         }
-            stage('Deploy') {
+            stage('deploy') {
             steps {
-                echo 'Deploy...'
-                bat 'mvn tomcat7:Deploy'
+                echo 'deploy...'
+                bat 'mvn tomcat7:deploy'
             }
         }
     }
