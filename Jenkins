@@ -28,7 +28,7 @@ pipeline {
             stage('Deploy') {
             steps {
                 echo 'Deploy...'
-                bat 'mvn Deploy'
+                bat 'mvn tomcat7:Deploy'
             }
         }
     }
