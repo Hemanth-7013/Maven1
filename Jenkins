@@ -29,7 +29,7 @@ pipeline {
             steps {
                 echo 'Deploy...'
                 bat 'mvn Deploy'
-     }
-   }
- }
+            }
+        }
+    }
 }
